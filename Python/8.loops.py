@@ -21,5 +21,5 @@ while num>0:
 num=int(input("Enter the num : "))
 val=1
 while val<=10:
-    print(str(num) +" x "+str(val)+" = "+str(num*val) )
+    print(f"{num} x {val} = {num*val}" )
     val+=1
