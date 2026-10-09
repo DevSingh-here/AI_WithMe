@@ -1,2 +1,5 @@
 name=input("Enter Your name : ")
+a=int(input("Enter val of a: "))
+b=int(input("Enter val of b: "))
 print(name)
+print(a+b)
