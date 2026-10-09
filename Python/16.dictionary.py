@@ -1,0 +1,14 @@
+intro={"name":"davik","age":19}
+intro["age"]=20
+print(intro)
+print(intro["name"])
+key=list(intro.keys())
+print(key)
+val=intro.keys()
+print(val)
+print(intro.values())
+print(intro.items())
+name=intro.get("name")
+print(name)
+intro.update({"marks":90})
+print(intro)
