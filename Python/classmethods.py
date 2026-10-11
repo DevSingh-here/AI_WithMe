@@ -12,8 +12,15 @@ class laptop:
     def get_info(self):
         print(f"laptop has {self.ram} RAM {self.storage} {self.storage_type}")
 
+    @staticmethod
+    def discount(price,disc):
+        final_price=price-disc
+        print(final_price)
+
 l1=laptop("16gb","512gb")
 l2=laptop("8gb","256gb")
 
 l1.get_info()
 l2.get_info()
+
+l1.discount(90_000,10_000)
